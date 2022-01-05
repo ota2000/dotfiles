@@ -1,6 +1,6 @@
 DOT_DIR=$HOME/dotfiles
 
-git pull origin main
+git -C $DOT_DIR pull
 
 # link
 ln -sf $DOT_DIR/.zshrc ~/.zshrc

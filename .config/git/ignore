@@ -48,16 +48,6 @@
 
 
 #
-# Dropbox
-#
-
-# Dropbox settings and caches
-.dropbox
-.dropbox.attr
-.dropbox.cache
-
-
-#
 # Vim
 #
 

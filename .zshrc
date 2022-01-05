@@ -29,12 +29,6 @@ HISTFILE=$HOME/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
-# alias
-alias ls="ls -G"
-alias ll="ls -lah"
-alias la="ls -lah"
-alias tf="terraform"
-
 # anyenv
 if [ -e "$HOME/.anyenv" ]
 then

@@ -1,0 +1,8 @@
+DOT_DIR=$HOME/dotfiles
+
+git pull origin main
+
+# link
+ln -sf $DOT_DIR/.zshrc ~/.zshrc
+ln -sf $DOT_DIR/.gitconfig ~/.gitconfig
+ln -sf $DOT_DIR/.config/git/ignore ~/.config/git/ignore

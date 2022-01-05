@@ -104,85 +104,85 @@
 	# https://git-scm.com/docs/git-update-index#_untracked_cache
 	untrackedCache = true
 
-# [color]
+[color]
 
-# 	# Use colors in Git commands that are capable of colored output when
-# 	# outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
-# 	ui = auto
+	# Use colors in Git commands that are capable of colored output when
+	# outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
+	ui = auto
 
-# [color "branch"]
+[color "branch"]
 
-# 	current = yellow reverse
-# 	local = yellow
-# 	remote = green
+	current = yellow reverse
+	local = yellow
+	remote = green
 
-# [color "diff"]
+[color "diff"]
 
-# 	meta = yellow bold
-# 	frag = magenta bold # line info
-# 	old = red # deletions
-# 	new = green # additions
+	meta = yellow bold
+	frag = magenta bold # line info
+	old = red # deletions
+	new = green # additions
 
-# [color "status"]
+[color "status"]
 
-# 	added = yellow
-# 	changed = green
-# 	untracked = cyan
+	added = yellow
+	changed = green
+	untracked = cyan
 
 # [commit]
 
 # 	# https://help.github.com/articles/signing-commits-using-gpg/
 # 	gpgsign = true
 
-# [diff]
+[diff]
 
-# 	# Detect copies as well as renames.
-# 	renames = copies
+	# Detect copies as well as renames.
+	renames = copies
 
-# [diff "bin"]
+[diff "bin"]
 
-# 	# Use `hexdump` to diff binary files.
-# 	textconv = hexdump -v -C
+	# Use `hexdump` to diff binary files.
+	textconv = hexdump -v -C
 
-# [help]
+[help]
 
-# 	# Automatically correct and execute mistyped commands.
-# 	autocorrect = 1
+	# Automatically correct and execute mistyped commands.
+	autocorrect = 1
 
-# [merge]
+[merge]
 
-# 	# Include summaries of merged commits in newly created merge commit messages
-# 	log = true
+	# Include summaries of merged commits in newly created merge commit messages
+	log = true
 
-# [push]
+[push]
 
-# 	# https://git-scm.com/docs/git-config#git-config-pushdefault
-# 	default = simple
-# 	# Make `git push` push relevant annotated tags when pushing branches out.
-# 	followTags = true
+	# https://git-scm.com/docs/git-config#git-config-pushdefault
+	default = simple
+	# Make `git push` push relevant annotated tags when pushing branches out.
+	followTags = true
 
-# # URL shorthands
+# URL shorthands
 
-# [url "git@github.com:"]
+[url "git@github.com:"]
 
-# 	insteadOf = "gh:"
-# 	pushInsteadOf = "github:"
-# 	pushInsteadOf = "git://github.com/"
+	insteadOf = "gh:"
+	pushInsteadOf = "github:"
+	pushInsteadOf = "git://github.com/"
 
-# [url "git://github.com/"]
+[url "git://github.com/"]
 
-# 	insteadOf = "github:"
+	insteadOf = "github:"
 
-# [url "git@gist.github.com:"]
+[url "git@gist.github.com:"]
 
-# 	insteadOf = "gst:"
-# 	pushInsteadOf = "gist:"
-# 	pushInsteadOf = "git://gist.github.com/"
+	insteadOf = "gst:"
+	pushInsteadOf = "gist:"
+	pushInsteadOf = "git://gist.github.com/"
 
-# [url "git://gist.github.com/"]
+[url "git://gist.github.com/"]
 
-# 	insteadOf = "gist:"
+	insteadOf = "gist:"
 
-# [init]
+[init]
 
-# 	defaultBranch = main
+	defaultBranch = main

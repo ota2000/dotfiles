@@ -52,3 +52,9 @@ echo "--- Add Aliases is Start! ---"
 source ~/dotfiles/.aliases
 
 echo "--- Add Aliases is Done!  ---"
+
+echo "--- Setup macOS is Start! ---"
+
+source ~/dotfiles/.macos
+
+echo "--- Setup macOS is Done!  ---"

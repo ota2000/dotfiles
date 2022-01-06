@@ -29,5 +29,4 @@ mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Menubar Countdown", id: 1485343244
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "The Unarchiver", id: 425424353
 mas "Xcode", id: 497799835

@@ -38,16 +38,16 @@ ln -sf ~/dotfiles/zsh/.zprofile ~/.zprofile
 # ln -sf ~/dotfiles/starship/starship.toml ~/.config/starship.toml
 
 # asdf
-ln -sf ~/dotfiles/.asdfrc ~/.asdfrc
-ln -sf ~/dotfiles/.tool-versions ~/.tool-versions
+ln -sf ~/dotfiles/asdf/.asdfrc ~/.asdfrc
+ln -sf ~/dotfiles/asdf/.tool-versions ~/.tool-versions
 
 # git
 mkdir -p ~/.config/git
-ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
-ln -sf ~/dotfiles/.config/git/ignore ~/.config/git/ignore
+ln -sf ~/dotfiles/git/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/git/ignore ~/.config/git/ignore
 
 # hyper
-ln -sf ~/dotfiles/.hyper.js ~/.hyper.js
+ln -sf ~/dotfiles/hyper/.hyper.js ~/.hyper.js
 
 echo "--- Link dotfiles is Done!  ---"
 

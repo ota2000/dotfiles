@@ -1,3 +1,5 @@
+autoload -Uz compinit && compinit
+
 #
 # Locale
 #
@@ -42,9 +44,18 @@ zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "danielbayerlein/zsh-plugins"
+zplug 'asdf-vm/asdf'
 
 if ! zplug check --verbose; then
   zplug install
 fi
 
 zplug load
+
+# asdf
+if [[ -f $ZPLUG_REPOS/asdf-vm/asdf/asdf.sh ]]; then
+  source $ZPLUG_REPOS/asdf-vm/asdf/asdf.sh
+fi
+# if [[ -f $ZPLUG_REPOS/asdf-vm/asdf/completions/asdf.bash ]]; then
+#   source $ZPLUG_REPOS/asdf-vm/asdf/completions/asdf.bash
+# fi

@@ -1,5 +1,19 @@
 #!/bin/sh
 
+ask() {
+    printf "$* [y/n] "
+    local answer
+    read answer
+
+    case $answer in
+        "yes" ) return 0 ;;
+        "y" )   return 0 ;;
+        * )     return 1 ;;
+    esac
+}
+
+set -e
+
 # brew がインストールされていなければインストール
 if [ -z "$(command -v brew)" ]; then
     echo "--- Install Homebrew is Start! ---"
@@ -16,8 +30,8 @@ echo "--- Link dotfiles is Start! ---"
 # ln -sf ~/dotfiles/vim/.vimrc ~/.vimrc
 
 # zsh
-ln -sf ~/dotfiles/.zshrc ~/.zshrc
-ln -sf ~/dotfiles/.zprofile ~/.zprofile
+ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
+ln -sf ~/dotfiles/zsh/.zprofile ~/.zprofile
 
 # starship
 # mkdir -p ~/.config
@@ -46,15 +60,8 @@ brew bundle cleanup --global --force
 
 echo "--- Brew bundle is Done!  ---"
 
-
-echo "--- Add Aliases is Start! ---"
-
-source ~/dotfiles/.aliases
-
-echo "--- Add Aliases is Done!  ---"
-
-echo "--- Setup macOS is Start! ---"
-
-source ~/dotfiles/.macos
-
-echo "--- Setup macOS is Done!  ---"
+if ask 'macOS setup?'; then
+    echo "--- Setup macOS is Start! ---"
+    source ~/dotfiles/.macos
+    echo "--- Setup macOS is Done!  ---"
+fi

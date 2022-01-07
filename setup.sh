@@ -33,10 +33,6 @@ echo "--- Link dotfiles is Start! ---"
 ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/zsh/.zprofile ~/.zprofile
 
-# starship
-# mkdir -p ~/.config
-# ln -sf ~/dotfiles/starship/starship.toml ~/.config/starship.toml
-
 # asdf
 ln -sf ~/dotfiles/asdf/.asdfrc ~/.asdfrc
 ln -sf ~/dotfiles/asdf/.tool-versions ~/.tool-versions

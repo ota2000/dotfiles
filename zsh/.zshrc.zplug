@@ -1,6 +1,7 @@
 #!/usr/bin/env zsh
 
-source ~/.zplug/init.zsh
+ZPLUG_HOME=/opt/homebrew/opt/zplug
+source $ZPLUG_HOME/init.zsh
 
 zplug "sindresorhus/pure", use:"{async,pure}.zsh", as:theme
 zplug "mafredri/zsh-async"

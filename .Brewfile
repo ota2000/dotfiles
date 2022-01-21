@@ -15,12 +15,14 @@ brew "direnv"
 brew "exa"
 brew "mas"
 brew "zplug"
+cask "alfred"
 cask "alt-tab"
 cask "appcleaner"
 cask "balenaetcher"
 cask "cheatsheet"
 cask "day-o"
 cask "font-meslo-lg-nerd-font"
+cask "google-japanese-ime"
 cask "hyper"
 cask "keyboardcleantool"
 cask "meetingbar"
@@ -31,5 +33,4 @@ mas "Jira", id: 1475897096
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Menubar Countdown", id: 1485343244
-mas "Microsoft Remote Desktop", id: 1295203466
 mas "Xcode", id: 497799835

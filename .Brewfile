@@ -27,6 +27,7 @@ cask "hyper"
 cask "keyboardcleantool"
 cask "meetingbar"
 cask "r"
+cask "visual-studio-code"
 cask "zoom"
 mas "Amphetamine", id: 937984704
 mas "Jira", id: 1475897096

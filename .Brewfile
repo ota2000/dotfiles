@@ -32,7 +32,6 @@ cask "r"
 cask "visual-studio-code"
 cask "zoom"
 mas "Amphetamine", id: 937984704
-mas "Jira", id: 1475897096
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Menubar Countdown", id: 1485343244

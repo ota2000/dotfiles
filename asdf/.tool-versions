@@ -1,7 +1,5 @@
 awscli 2.4.13
 gcloud 369.0.0
-nodejs 17.4.0
 python 3.10.2 2.7.18
-ruby 3.1.0
 terraform 1.1.4
 kubectl 1.25

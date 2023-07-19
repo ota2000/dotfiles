@@ -52,3 +52,4 @@ source ${DOTFILES_ZSH_HOME}/.zshrc.check_update_dotfiles
 if [[ -f "${DOTFILES_ZSH_HOME}/.zshrc.local" ]]; then
   source ${DOTFILES_ZSH_HOME}/.zshrc.local
 fi
+export PATH="/opt/homebrew/opt/apr-util/bin:$PATH"

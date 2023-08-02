@@ -1,6 +1,7 @@
 [user]
     name = "OTA2000"
 	email = 16278388+OTA2000@users.noreply.github.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOHfFwdwaxcAyuPVEtc2qlrEBQbAHS3tVoIKJmfuzqQc
 
 [alias]
     # View abbreviated SHA, description, and history graph of the latest 20 commits.
@@ -171,3 +172,9 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true

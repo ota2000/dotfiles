@@ -53,3 +53,4 @@ if [[ -f "${DOTFILES_ZSH_HOME}/.zshrc.local" ]]; then
   source ${DOTFILES_ZSH_HOME}/.zshrc.local
 fi
 export PATH="/opt/homebrew/opt/apr-util/bin:$PATH"
+export PATH=$HOME/.nodebrew/current/bin:$PATH

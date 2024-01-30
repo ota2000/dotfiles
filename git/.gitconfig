@@ -1,7 +1,7 @@
 [user]
     name = "OTA2000"
 	email = 16278388+OTA2000@users.noreply.github.com
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOHfFwdwaxcAyuPVEtc2qlrEBQbAHS3tVoIKJmfuzqQc
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDp4/lOD777eWz4ipZPszGQgNyHVxWsmCjQ3B6icQR3F
 
 [alias]
     # View abbreviated SHA, description, and history graph of the latest 20 commits.

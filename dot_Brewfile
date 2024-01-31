@@ -60,10 +60,12 @@ mas "iMovie", id: 408981434
 mas "Jira", id: 1475897096
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
+mas "MeetingBar", id: 1532419400
 mas "Menubar Countdown", id: 1485343244
-mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Photomator", id: 1444636541
+mas "Wake Up Time", id: 495945638
 mas "Xcode", id: 497799835
 vscode "dataform.dataform"
 vscode "DavidAnson.vscode-markdownlint"

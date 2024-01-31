@@ -1,5 +1,14 @@
-zstyle ":completion:*:commands" rehash 1
 autoload -Uz colors && colors
+zstyle ":completion:*:commands" rehash 1
+
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+  autoload -Uz compinit && compinit
+  source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+  source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+  source $(brew --prefix)/opt/zsh-git-prompt/zshrc.sh
+  source $(brew --prefix)/opt/asdf/libexec/asdf.sh
+fi
 
 typeset -U path PATH
 path=(
@@ -13,18 +22,6 @@ path=(
   /sbin
   /Library/Apple/usr/bin
 )
-
-if type brew &>/dev/null; then
-  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-  source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-  source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-  autoload -Uz compinit && compinit
-fi
-
-alias python="python3"
-
-source $(brew --prefix)/opt/zsh-git-prompt/zshrc.sh
-source $(brew --prefix)/opt/asdf/libexec/asdf.sh
 
 git_prompt() {
   if [ "$(git rev-parse --is-inside-work-tree 2> /dev/null)" = true ]; then
@@ -50,4 +47,6 @@ precmd() {
 # alias
 alias ls='exa'
 alias la='exa -la'
+alias cat='bat -p'
+alias python="python3"
 

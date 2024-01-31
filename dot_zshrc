@@ -7,7 +7,6 @@ if type brew &>/dev/null; then
   source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
   source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
   source $(brew --prefix)/opt/zsh-git-prompt/zshrc.sh
-  source $(brew --prefix)/opt/asdf/libexec/asdf.sh
 fi
 
 typeset -U path PATH
@@ -50,3 +49,4 @@ alias la='exa -la'
 alias cat='bat -p'
 alias python="python3"
 
+. /opt/homebrew/opt/asdf/libexec/asdf.sh

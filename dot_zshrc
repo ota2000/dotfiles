@@ -48,5 +48,6 @@ alias ls='exa'
 alias la='exa -la'
 alias cat='bat -p'
 alias python="python3"
+alias tf="terraform"
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh

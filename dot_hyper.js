@@ -134,12 +134,11 @@ module.exports = {
     //   `@company/project`
     //   `project#1.0.1`
     plugins: [
-        "hyperterm-material",
+        "hyper-flat",
+        "hyperborder",
         "hyper-statusline",
         "hyper-search",
         "hypercwd",
-    //  "hyper-opacity",
-        "hyper-pane",
         "hyper-tab-icons-plus"
     ],
     // in development, you can create a directory under

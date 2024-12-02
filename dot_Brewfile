@@ -37,31 +37,26 @@ cask "alfred"
 cask "alt-tab"
 cask "appcleaner"
 cask "background-music"
-cask "balenaetcher"
 cask "cheatsheet"
 cask "clipy"
-cask "day-o"
 cask "deepl"
-cask "fig"
 cask "font-meslo-lg-nerd-font"
-cask "gather"
 cask "github"
+cask "google-chrome"
 cask "google-japanese-ime"
 cask "hyper"
+cask "jordanbaird-ice"
 cask "keyboardcleantool"
 cask "notion"
-cask "r"
 cask "slack"
 cask "visual-studio-code"
 cask "zoom"
 mas "Amphetamine", id: 937984704
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
-mas "Jira", id: 1475897096
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "MeetingBar", id: 1532419400
-mas "Menubar Countdown", id: 1485343244
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Photomator", id: 1444636541
@@ -111,6 +106,7 @@ vscode "shinichi-takii.sql-bigquery"
 vscode "svsool.markdown-memo"
 vscode "visualstudioexptteam.intellicode-api-usage-examples"
 vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscjava.vscode-gradle"
 vscode "vscjava.vscode-java-debug"
 vscode "vscjava.vscode-java-dependency"
 vscode "vscjava.vscode-java-pack"

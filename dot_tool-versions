@@ -1,6 +1,5 @@
 python 3.10.13
 gcloud 461.0.0
 terraform 1.7.1
-nodejs 20.11.0
 poetry 1.8.1
 

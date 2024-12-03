@@ -1,5 +1,5 @@
 [user]
-    name = "OTA2000"
+    name = "ota2000"
     email = 16278388+OTA2000@users.noreply.github.com
     signingkey = ~/.ssh/signing-key.pub
 
@@ -178,3 +178,5 @@
 	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
 [commit]
 	gpgsign = true
+[ghq]
+	root = ~/src

@@ -44,11 +44,12 @@ precmd() {
 }
 
 # alias
-alias ls='eza'
-alias la='eza -la'
-alias cat='bat -p'
+alias ls='eza --icons --git'
+alias la='eza -la --icons --git --time-style=long-iso'
+alias cat='bat --style=full --paging=never --theme=TwoDark'
 alias python="python3"
 alias tf="terraform"
+alias ..="cd .."
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 

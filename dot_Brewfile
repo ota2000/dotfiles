@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
+brew "libpng"
 brew "aom"
 brew "openssl@3"
 brew "apr-util"
@@ -35,6 +36,7 @@ brew "zsh-git-prompt"
 brew "zsh-syntax-highlighting"
 cask "1password"
 cask "1password-cli"
+cask "adguard"
 cask "alfred"
 cask "alt-tab"
 cask "appcleaner"
@@ -49,6 +51,7 @@ cask "google-japanese-ime"
 cask "hyper"
 cask "jordanbaird-ice"
 cask "keyboardcleantool"
+cask "meetingbar"
 cask "notion"
 cask "slack"
 cask "visual-studio-code"
@@ -58,7 +61,6 @@ mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
-mas "MeetingBar", id: 1532419400
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Photomator", id: 1444636541

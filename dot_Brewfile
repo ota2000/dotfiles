@@ -38,6 +38,7 @@ cask "1password-cli"
 cask "alfred"
 cask "alt-tab"
 cask "appcleaner"
+cask "cameracontroller"
 cask "cheatsheet"
 cask "cursor"
 cask "deepl"
@@ -63,7 +64,6 @@ mas "Pages", id: 409201541
 mas "Photomator", id: 1444636541
 mas "Wake Up Time", id: 495945638
 mas "Xcode", id: 497799835
-vscode "anysphere.pyright"
 vscode "bierner.markdown-mermaid"
 vscode "bpruitt-goddard.mermaid-markdown-syntax-highlighting"
 vscode "davidanson.vscode-markdownlint"

@@ -66,3 +66,5 @@ bindkey '^]' peco-src
 
 export HOMEBREW_AUTO_UPDATE_SECS=1800
 
+eval "$(uv generate-shell-completion zsh)"
+

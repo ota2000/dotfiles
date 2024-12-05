@@ -84,6 +84,8 @@ cask "alt-tab"
 cask "appcleaner"
 # Control USB Cameras from an app
 cask "cameracontroller"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Tool to list all active shortcuts of the current application
 cask "cheatsheet"
 # Write, edit, and chat about your code with AI

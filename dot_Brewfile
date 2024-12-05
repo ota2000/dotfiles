@@ -49,7 +49,6 @@ cask "github"
 cask "google-chrome"
 cask "google-japanese-ime"
 cask "hyper"
-cask "itsycal"
 cask "jordanbaird-ice"
 cask "keyboardcleantool"
 cask "meetingbar"
@@ -62,6 +61,7 @@ mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
+mas "Mini Calendar", id: 1088779979
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Photomator", id: 1444636541

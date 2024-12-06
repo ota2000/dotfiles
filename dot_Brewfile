@@ -1,62 +1,119 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
+# Library for manipulating PNG images
 brew "libpng"
+# Codec library for encoding and decoding AV1 video streams
 brew "aom"
+# Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
+# Companion library to apr, the Apache Portable Runtime library
 brew "apr-util"
+# Password hashing library and CLI utility
 brew "argon2"
+# Automatic configure script builder
 brew "autoconf"
+# Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
+# GNU File, Shell, and Text utilities
 brew "coreutils"
+# Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
+# Spell checker with better logic than ispell
 brew "aspell"
+# Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
+# Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Load/unload environment variables based on $PWD
 brew "direnv"
+# Modern, maintained replacement for ls
 brew "eza"
+# Asynchronous event library
 brew "libevent"
+# Library to load and enumerate PKCS#11 modules
 brew "p11-kit"
+# Validating, recursive, caching DNS resolver
 brew "unbound"
+# Secure Reliable Transport
 brew "srt"
+# Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# GitHub command-line tool
 brew "gh"
+# Remote repository management made easy
 brew "ghq"
+# Distributed revision control system
 brew "git"
+# GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# Lightweight and flexible command-line JSON processor
 brew "jq"
+# Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
+# Mac App Store command-line interface
 brew "mas"
+# Node.js version manager
 brew "nodebrew"
+# Simplistic interactive filtering tool
 brew "peco"
+# Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# Real-time type-ahead completion for Zsh
 brew "zsh-autocomplete"
+# Additional completion definitions for zsh
 brew "zsh-completions"
+# Informative git prompt for zsh
 brew "zsh-git-prompt"
+# Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Command-line interface for 1Password
 cask "1password-cli"
+# Stand alone ad blocker
 cask "adguard"
+# Application launcher and productivity software
 cask "alfred"
+# Enable Windows-like alt-tab
 cask "alt-tab"
+# Application uninstaller
 cask "appcleaner"
+# Control USB Cameras from an app
 cask "cameracontroller"
+# OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# Tool to list all active shortcuts of the current application
 cask "cheatsheet"
+# Write, edit, and chat about your code with AI
 cask "cursor"
+# Trains AIs to understand and translate texts
 cask "deepl"
 cask "font-meslo-lg-nerd-font"
+# Desktop client for GitHub repositories
 cask "github"
+# Web browser
 cask "google-chrome"
+# Japanese input software
 cask "google-japanese-ime"
+# Terminal built on web technologies
 cask "hyper"
+# Menu bar manager
 cask "jordanbaird-ice"
+# Blocks all Keyboard and TouchBar input
 cask "keyboardcleantool"
+# Shows the next meeting in the menu bar
 cask "meetingbar"
+# App to write, plan, collaborate, and get organised
 cask "notion"
+# Team communication and collaboration software
 cask "slack"
+# Open-source code editor
 cask "visual-studio-code"
+# Video communication and virtual meeting platform
 cask "zoom"
 mas "Amphetamine", id: 937984704
 mas "GarageBand", id: 682658836

@@ -3,10 +3,7 @@ zstyle ":completion:*:commands" rehash 1
 
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-  autoload -Uz compinit
-  if ! compaudit | grep -q "."; then
-    compinit
-  fi
+  autoload -Uz compinit && compinit
   source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
   source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
   source $(brew --prefix)/opt/zsh-git-prompt/zshrc.sh
@@ -53,6 +50,7 @@ alias cat='bat --style=full --paging=never --theme=TwoDark'
 alias python="python3"
 alias tf="terraform"
 alias ..="cd .."
+alias beep='for i in {1..3}; do afplay /System/Library/Sounds/Submarine.aiff; done'
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
@@ -69,5 +67,5 @@ bindkey '^]' peco-src
 
 export HOMEBREW_AUTO_UPDATE_SECS=1800
 
-eval "$(uv generate-shell-completion zsh)"
-
+# uv コマンドの補完（必要に応じて有効化）
+# eval "$(uv generate-shell-completion zsh)"

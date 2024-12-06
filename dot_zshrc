@@ -3,7 +3,10 @@ zstyle ":completion:*:commands" rehash 1
 
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-  autoload -Uz compinit && compinit
+  autoload -Uz compinit
+  if ! compaudit | grep -q "."; then
+    compinit
+  fi
   source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
   source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
   source $(brew --prefix)/opt/zsh-git-prompt/zshrc.sh

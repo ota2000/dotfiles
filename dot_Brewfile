@@ -92,6 +92,8 @@ cask "cheatsheet"
 cask "cursor"
 # Trains AIs to understand and translate texts
 cask "deepl"
+# Utilities designed to make common development tasks easier
+cask "devtoys"
 cask "font-meslo-lg-nerd-font"
 # Desktop client for GitHub repositories
 cask "github"

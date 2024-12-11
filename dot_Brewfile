@@ -111,6 +111,8 @@ cask "keyboardcleantool"
 cask "meetingbar"
 # App to write, plan, collaborate, and get organised
 cask "notion"
+# Screenshot measurement and annotation tool
+cask "shottr"
 # Team communication and collaboration software
 cask "slack"
 # Open-source code editor

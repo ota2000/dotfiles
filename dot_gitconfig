@@ -1,7 +1,7 @@
 [user]
     name = "ota2000"
     email = 16278388+OTA2000@users.noreply.github.com
-    signingkey = ~/.ssh/signing-key.pub
+    signingkey = ~/.ssh/id_rsa.pub
 
 [alias]
     # View abbreviated SHA, description, and history graph of the latest 20 commits.

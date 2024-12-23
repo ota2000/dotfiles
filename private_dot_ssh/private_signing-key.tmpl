@@ -1,5 +1,2 @@
-{{ if eq .chezmoi.hostname "ota2000-mini-m4" }}
 {{ (onepasswordDetailsFields "tixl4dpzoejnpfttdrso3lkrxy").private_key.value }}
-{{ else if eq .chezmoi.hostname "work-macbook" }}
-{{ (onepasswordDetailsFields "work-key-id").private_key.value }}
-{{ end }}
+
